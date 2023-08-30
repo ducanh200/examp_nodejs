@@ -7,7 +7,7 @@ class Database{
     }
     _connect(){
         mongoose.connect(`${server}/${db_name}`)
-        .then(()=>{
+        .then(()=>{ 
             console.log(`Connected database ${db_name}`);
         })
         .catch(err=>{

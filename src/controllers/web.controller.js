@@ -7,7 +7,7 @@ exports.home = async(req,res)=>{
             products:products
         });
     } catch (error) {
-        
+         
     }
 
 }
